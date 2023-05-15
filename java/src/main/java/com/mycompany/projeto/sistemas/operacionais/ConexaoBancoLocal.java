@@ -9,7 +9,8 @@ public class ConexaoBancoLocal {
        BasicDataSource dataSource = new BasicDataSource();
 
        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-       dataSource.setUrl("jdbc:mysql://172.20.0.2:3306/meuDB?useSSL=false");
+//       dataSource.setUrl("jdbc:mysql://172.20.0.2:3306/meuDB?useSSL=false");
+       dataSource.setUrl("jdbc:mysql://localhost:3307/meuDB?useSSL=false");
        dataSource.setUsername("meuDB");
        dataSource.setPassword("1234");
 
