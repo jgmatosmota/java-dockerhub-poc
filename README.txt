@@ -11,4 +11,4 @@ IMPORTANTE!
 A ec2 deve possuir o docker e o docker-compose devidamente instalados!
 - Comandos docker compose "sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose"
 - Atribuindo permissões "sudo chmod +x /usr/local/bin/docker-compose"
--Docker "sudo apt-get install docker-ce"
+-Docker "sudo apt-get install docker.io"
