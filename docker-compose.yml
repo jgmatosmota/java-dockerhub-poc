@@ -18,7 +18,7 @@ services:
         ipv4_address: 172.20.0.2
 
   teste-java:
-    image: jgmatosmota/imagemjava:testeb
+    image: jgmatosmota/imagemjava:tested
     container_name: javaContainer
     command: ["java", "-jar", "/app/imagemJava.jar"]
     stdin_open: true
